@@ -469,10 +469,10 @@ html {
   display: relative;
   width: 100%;
   height: 100%;
-top: 0rem;
-  right: 5rem;
+top: 13em;
+  right: 0rem;
  border-radius: 50%;
-  background: linear-gradient(90deg, rgba(253,29,29,1) 0%, rgba(253,93,46,1) 35%, rgba(252,176,69,1) 75%);
+  background: linear-gradient(90deg, rgba(252,176,69.1), rgba(253,93,46,1) 100%, rgba(252,176,69,1) 100%);
 }
 
 
@@ -481,13 +481,13 @@ top: 0rem;
   width: 25rem;
   height: 25rem;
 background: none;
-	top: 0rem;
-	right: 5rem;
+	top: 13rem;
+	right: 0rem;
 	transform: translate(-50%, -50%);
-	animation: myfirst 1.5s infinite linear;
+	animation: myfirst 1.5s none;
 	}
 	
-	@keyframes myfirst {
+	/*@keyframes myfirst {
 		0% {
 			transform: translate(-10%, 25%) rotate(0deg);
 		}
@@ -495,7 +495,7 @@ background: none;
 		100% {
 			transform: translate(-10%, 25%) rotate(360deg);
 		}
-	}
+	} */
 	
 .gold-1 {
 	position: absolute;
@@ -970,7 +970,7 @@ background: none;
 }
 
 .circle-1 {
-  background: url(images/landing/circle-1.heif) center no-repeat;
+  background: url(images/landing/circle-1-img.jpg) center no-repeat;
   background-size: cover;
   background-clip: content-box;
   margin-left: -10rem;
@@ -979,7 +979,7 @@ background: none;
 }
 
 .circle-2 {
-  background: url(images/landing/circle-2.heif) center no-repeat;
+  background: url(images/landing/circle-2-img.png) center no-repeat;
   background-size: cover;
   background-clip: content-box;
   margin-right: -10rem;
@@ -987,7 +987,7 @@ background: none;
 }
 
 .circle-3 {
-  background: url(images/landing/circle-3-img.jpg) center no-repeat;
+  background: url(images/landing/circle-3-img.png) center no-repeat;
   background-size: cover;
   background-clip: content-box;
   margin-left: -10rem;
@@ -995,7 +995,7 @@ background: none;
 }
 
 .circle-4 {
-  background: url(images/landing/circle-4.heif) center no-repeat;
+  background: url(images/landing/circle-4-img.png) center no-repeat;
   background-size: cover;
   background-clip: content-box;
   margin-right: -10rem;
@@ -1386,7 +1386,7 @@ background: none;
 .section-5 {
   position: relative;
   top: 0rem;
-  height: 100vh;
+  height: 120vh;
   flex-direction: column;
 }
 
@@ -1461,31 +1461,39 @@ background: none;
 /* End of Form Validation */
 /* End of Form */
 
-  .cruz {
-	position: absolute;
+  .cruzz {
+	position: relative;
 	width: 10px;
 	height: 25rem;
 	background-color: red;
-	top: 70rem;
-	right: 30rem;
+	top: 9rem;
+  align-items: center;
+  padding: center;
+  margin: center;
+  justify-content: center;
+
   }
 
-  .cross {
-	position: absolute;
+  .crosss {
+	position: relative;
 	width: 10rem;
 	height: 10px;
 	background-color: red;
-	top: 75rem;
-	right: 30rem;
+	top: -10rem;
+  align-items: center;
+  padding: center;
+  margin: center;
+  justify-content: center;
+
   }
 
   .cruzr {
 	position: absolute;
 	width: 10px;
-	height: 25rem;
+	height: 18rem;
 	background-color: red;
-	top: 70rem;
-	right: 25rem;
+	top: 114rem;
+	right: 60rem;
   }
 
   .crossr {
@@ -1493,8 +1501,8 @@ background: none;
 	width: 10rem;
 	height: 10px;
 	background-color: red;
-	top: 75rem;
-	right: 30rem;
+	top: 118rem;
+	right: 55.5rem;
   }
 
   .cruzl {
@@ -1502,18 +1510,17 @@ background: none;
 	width: 10px;
 	height: 25rem;
 	background-color: red;
-	top: 70rem;
-	left: 30rem;
+	top: 114rem;
+	left: 60rem;
   }
 
   .crossl {
 	position: absolute;
 	width: 10rem;
 	height: 10px;
-	left: 30rem;
 	background-color: red;
-	top: 75rem;
-	left: 20.5rem;
+	top: 118rem;
+	left: 55.5rem;
   }
 
 
@@ -1521,7 +1528,8 @@ background: none;
   position: relative;
   width: 100%;
   height: 90rem;
-  background-size: cover;
+  
+  
   
 }
 
@@ -1553,16 +1561,18 @@ background: none;
 
  /* Logos */
 .free {
-  position: relative;
+  position: absolute;
   width: 100%;
-  top: -50rem;
+  top: 0rem;
   justify-content: center;
   align-items: center;
+  
+
 
 }
   .eq {
     position: absolute;
-    left: 45rem;
+    left: 55rem;
   
   top: 25rem;
   
@@ -1570,7 +1580,7 @@ background: none;
 
   .blm {
     position: absolute;
-    left: 35rem;
+    left: 40rem;
     top: 25rem;
   
   }
@@ -1579,13 +1589,13 @@ background: none;
 
   .infinitylove {
     position: absolute;
-    left: 25rem;
+    left: 30rem;
     top: 25rem;
   }
 
 .tmc {
   position: absolute;
-  left: 15rem;
+  left: 20rem;
   top: 25rem;
 }
 
@@ -1626,25 +1636,25 @@ background: none;
 
   .bird {
     position: absolute;
-    right: 25rem;
+    right: 30rem;
     top: 25rem;
   }
   
   .mayagang {
     position: absolute;
-    right: 35rem;
+    right: 55rem;
     top: 25rem;
   }
 
   .ifixit {
     position: absolute;
-    right: 25rem;
+    right: 40rem;
     top: 25rem;
   }
 
   .github {
     position: absolute;
-    right: 15rem;
+    right: 20rem;
     top: 25rem;
   }
 
@@ -1656,9 +1666,9 @@ background: none;
 
   .laa {
     position: absolute;
-    justify-content: center;
     top: 25rem;
-    left: 30rem;
+    right: 75rem;
+    left: 75rem;
   }
   /* End of Logos */
 
@@ -1680,22 +1690,24 @@ background: none;
 
 }
 
-.social-media .btn {
+
+.social-media {
   position: absolute;
   width: 35rem;
   height: 35rem;
-  top: 10rem;
-  left: 5rem;
+  top: 45rem;
+  left: 15rem;
+  color: #0270D7;
 }
 
-/* .btn-social {
+/*.btn {
 position: absolute;
 margin-right: 5px; 
 width: 35rem;
 height: 35rem;
 align-items: center;
 display: contents;
-*/
+} */
 
 
 .copyright {
@@ -1812,7 +1824,206 @@ border-right: 1px solid #777;
   width: 8rem;
 }
 
-/* End of Section 5 */
+
+  
+/* iM Wireless logo */
+.wireless-logoo {
+	position: absolute;
+	top: 82.5rem;
+	visibility: visible;
+  bottom: 0rem;
+  align-items: center;
+  justify-content: center;
+  width: 25rem;
+
+  margin: center;
+}
+
+.bg {
+	border: 2px solid transparent;
+	position: absolute;
+	width: 25rem;
+	height: 10rem;
+	top: -2.5rem;
+	display: flex;
+	border-radius: 10px;
+	transition: all 1s;
+	background-color: #777;
+  opacity: 0.2;
+  }
+  
+  .line-11 {
+	position: absolute;
+	height: 100px;
+	width: 1px;
+	top: 0.5rem;
+	left: 1rem;
+	background-color: silver;
+	display: block;
+  }
+  
+
+  .line-22 {
+	position: absolute;
+	height: 1px;
+	width: 120px;
+	top: 0.5rem;
+	left: 1rem;
+	background-color: silver;
+	
+ }
+
+ .line-22 {
+  position: absolute;
+	height: 1px;
+	width: 80px;
+	animation-name: slide1;
+	animation-duration: 8s;
+	animation-iteration-count: none;
+	top: 0.5rem;
+	left: 1rem;
+  }
+  
+
+ 
+
+
+  .line-33 {
+	position: absolute;
+	height: 85px;
+	width: 1px;
+	top: 0.5rem;
+	left: 23.5rem;
+	background-color: silver;
+	display: block;
+  }
+  
+  .line-44 {
+	position: absolute;
+	height: 1px;
+	width: 120px;
+	top: 8.9rem;
+	left: 16rem;
+	background-color: silver;
+  }
+  
+    .line-44 {
+	height: 1px;
+	width: 80px;
+	animation-name: slide;
+	animation-duration: 8s;
+	animation-iteration-count: none;
+	top: 8.9rem;
+	left: 16rem;
+  }
+  
+
+
+  .span-1 {
+	position: absolute;
+	content: \F285;
+	  font-size: 6rem;
+	  left: -14rem;
+	  margin-top: -2.4rem;
+	  color: silver;
+	  display: block;
+  }
+  
+  .i {
+	  position: absolute;
+	  font-size: 1.4rem;
+	  font-family: 'DM Serif Display', serif;
+	  font-weight: 400;
+	  justify-content: center;
+	  margin-left: 11.2rem;
+	  margin-top: 4.5rem;
+	  color: silver;
+	  display: block;
+  }
+  
+  .m {
+	position: absolute;
+	font-size: 2rem;
+	margin-top: 4rem;
+	font-family: 'DM Serif Display', serif;
+	font-weight: 400;
+	justify-content: center;
+	margin-left: 11.5rem;
+	color: silver;
+	display: block;
+  }
+  
+  .span-2 {
+	  position: absolute;
+	  margin-left: -6.8rem;
+	  margin-top: 5.9rem;
+	  content: "\F284";
+	  font-size: 6rem;
+	  color: silver;
+	  display: block;
+  }
+  
+  .wireless {
+	  position: absolute;
+	  left: 1.5rem;
+	  font-size: 1.5rem;
+	  margin-top: 7.5rem;
+	  font-family: "Great Vibes", cursive;
+	  font-weight: 400;
+	  font-style: normal;
+	  color: silver;
+	  display: block;
+  }
+  
+  .bi {
+	position: absolute;
+	left: 22.5rem;
+	top: 2.5rem;
+  }
+  
+  .laptop {
+	position: absolute;
+	content: \F456;
+	top: 3.3rem;
+	left: -2rem;
+	display: block;
+  }
+  
+  .code {
+	position: absolute;
+	top: 3.5rem;
+	left: -1.4rem;
+	background-color: #aaa;
+	display: block;
+  }
+
+
+  .line-11 {
+	width: 1px;
+	height: 85px;
+	position: relative;
+	animation-name: right;
+	animation-duration: 8s;
+	animation-iteration-count: none;
+  }
+  
+  
+  
+  .line-33 {
+    width: 1px;
+    height: 85px;
+    position: relative;
+    animation-name: left;
+    animation-duration: 8s;
+	animation-iteration-count: none;
+    }
+    
+  
+
+  /* End of iM Wireless logo */
+
+
+/* End of Section 10 */
 
 /* Responsive */
 @media (max-width: 1500px) {

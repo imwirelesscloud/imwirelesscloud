@@ -259,7 +259,7 @@ menuIcon.addEventListener("click", () => {
 // About Me Text
 const aboutMeText = document.querySelector(".about-me-text");
 const aboutMeTextContent =
-  "I am a developer & I create awards winning websites with the best user experience & I do not talk much, just contact me. :)";
+  "I am a developer & I create awards winning websites with the best user experience. Also I do wood-working in construction as TERMINOLOGY II. I do not talk much, just contact me. :)";
 
 
 

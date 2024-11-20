@@ -1,4 +1,71 @@
+/*function fadeOut () {
+  TweenMax. to("-myBtn", 1, k
+y: -100, opacity: 0
+3) ;
+TweenMax. to(" screen", 2, {
+y: -400, opacity: 0, ease: Power2.easeInOut,
+delay: 2
+3);
+TweenMax. from(" overlay", 2, € ease: Power2.easeIn0ut
+3) ;
+TweenMax. to(".overlay", 2, {
+delay: 2.6, top: "-110%", ease: Expo.easeInOut
+3):
+TweenMax. to("-overlay-2", 2, €
+delay: 3, top: "-110%", ease: Expo.easeInOut
+3) ;
+TweenMax. from("'. content", 2, {
+delay: 3.2, opacity: 0, ease: Power2.easeInOut
+3);
+TweenMax, to (". content", 2, {
+opacity: 1, y: -300, delay: 3.2, ease: Power2.easeInOut
+7):
+} 
 
+ function fadeOut() {
+
+     TweenMax.to(".myBtn", 1, {
+          y: -100,
+          opacity: 0
+     });
+
+     TweenMax.to(".screen", 2, {
+          y: -400,
+          opacity: 0,
+          ease: Power2.easeInOut,
+          delay: 2
+     });
+
+     TweenMax.from(".overlay", 2, {
+          ease: Power2.easeInOut
+     });
+
+     TweenMax.to(".overlay", 2, {
+          delay: 2.6,
+          top: "-110%",
+          ease: Expo.easeInOut
+     });
+
+     TweenMax.to(".overlay-2", 2, {
+          delay: 3,
+          top: "-110%",
+          ease: Expo.easeInOut
+     });
+
+     TweenMax.from(".content", 2, {
+          delay: 3.2,
+          opacity: 0,
+          ease: Power2.easeInOut
+     });
+
+     TweenMax.to(".content", 2, {
+          opacity: 1,
+          y: -300,
+          delay: 3.2,
+          ease: Power2.easeInOut
+     });
+
+     } */
 
 
 // Mouse Circle
@@ -259,7 +326,7 @@ menuIcon.addEventListener("click", () => {
 // About Me Text
 const aboutMeText = document.querySelector(".about-me-text");
 const aboutMeTextContent =
-  "I am a developer & I create awards winning websites with the best user experience. Also I do wood-working in construction as TERMINOLOGY II. I do not talk much, just contact me. :)";
+  "I am a developer & I create awards winning websites with the best user experience. Also I do wood-working in construction as TERMINOLOGY II.  I do not talk much, just contact me. :)";
 
 
 
@@ -344,7 +411,7 @@ projects.forEach((project, i) => {
   });
   // End of Big Project Image
 
-  i >= 6 && (project.style.cssText = "display: none; opacity: 0");
+  i >= 12 && (project.style.cssText = "display: none; opacity: 0");
 });
 
 // Projects Button
@@ -385,7 +452,7 @@ projectsBtn.addEventListener("click", (e) => {
     : (projectsBtnText.textContent = "Show More");
 
   projects.forEach((project, i) => {
-    i >= 6 &&
+    i >= 12 &&
       (showHideBool ? showProjects(project, i) : hideProjects(project, i));
   });
   showHideBool = !showHideBool;

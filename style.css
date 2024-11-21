@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+
+
+
+
 /* Common Styles */
 * {
   margin: 0;
@@ -12,16 +16,237 @@
   font-family: "Jura", sans-serif;
 }
 
-html {
+html 
+ {
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
 
-.center {
+.center  {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+
+
+/* Intro 
+.content { 
+  width: 60%;
+margin: 0 0; z-index: -1;
+position: absolute;
+top: 60%; left: 10%;
+transform: translate (0, -50%);
+}
+
+.content h1 {
+font-family: Poppins; 
+font-size: 54px;
+color: #005A9C;
+font-weight: 700; 
+text-transform: uppercase;
+ margin-bottom: 10px;
+}
+
+.content p {
+margin-top: 0; 
+text-align: left;
+color: red;
+font-weight: 400;
+}
+
+.overlay-2 {
+z-index: 0; position: absolute;
+width: 100%;
+height: 100vh;
+background: #005A9C
+}
+
+.overlay {
+z-index:
+1;
+position: absolute;
+width: 100%;
+height: 100vh;
+background: red;
+｝
+
+.overlay p {
+font-size: 300px;
+font-weight: 800;
+}
+
+.screen {
+color：■#323232;
+font-family: Poppins;
+ position: absolute;
+top: 12%; left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.myBtn {
+font-family: Poppins; 
+position: absolute;
+top: 50%;
+left:
+50%;
+transform: translate(-50%, -50%);
+}
+
+.button {
+display: block;
+padding: 24px 48px; 
+font-family: Poppins; 
+font-weight: 700;
+ font-size: 12px; 
+ letter-spacing: 6px; 
+ color: #fff;
+border: 2px solid #fff;
+ text-transform: uppercase;
+outline: none;
+overflow: hidden;
+ background: none;
+z-index: 1;
+ cursor: crosshair;
+transition: 0.8s ease-out;
+}
+
+.myBtn:hover {
+color:
+red;
+cursor:
+crosshair;
+}
+
+.myBtn:before {
+content: '';
+position: absolute; background: #fff;
+bottom: 0; left: 0; right: 0; top: 100%; z-index: -1;
+transition: top 0.8s ease-out;
+}
+
+.myBtn:hover:before {
+  top: 0;
+  } */
+
+  /* Intro 
+
+
+  .content {
+     width: 100%;
+     height: 100%;
+     z-index: -1;
+     position: fixed;
+    
+     left: 10%;
+     transform: translate(0, -50%);
+     
+
+}
+
+.content h1 {
+     font-family: Poppins;
+     font-size: 54px;
+     color: #101010;
+     font-weight: 700;
+     text-transform: uppercase;
+     margin-bottom: 10px;
+} 
+
+.content p {
+     margin-top: 0;
+     text-align: left;
+     color: #101010;
+     font-weight: 400;
+     position: fixed;
+     width: 100%;
+     
+} 
+.overlay-2 {
+     z-index: -1;
+     top: 20rem;
+     position: absolute;
+     width: 100%;
+     height: 100vh;
+     background: #005A9C
+} 
+
+.overlay {
+     z-index: 0;
+     position: absolute;
+     width: 100%;
+     height: 100vh;
+     background: #101010;
+}
+
+.overlay p {
+  top: 20rem;
+     font-size: 75px;
+     font-weight: 800;
+     
+}
+
+.screen {
+     color: red;
+     font-family: Poppins;
+     position: relative;
+     top: 12%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+}
+
+.myBtn {
+     font-family: Poppins;
+     position: absolute;
+     top: 80%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+}
+
+button {
+     display: block;
+     padding: 24px 48px;
+     font-family: Poppins;
+     font-weight: 700;
+     font-size: 12px;
+     letter-spacing: 6px;
+     color: orangered;
+     border: 2px solid #fff;
+     text-transform: uppercase;
+     outline: none;
+     overflow: hidden;
+     background: none;
+     z-index: 1;
+     cursor: crosshair;
+     transition: 0.8s ease-out;
+}
+
+.myBtn:hover {
+     color: #101010;
+     cursor: crosshair;
+}
+
+.myBtn:before {
+     content: "";
+     position: absolute;
+     background: #fff;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     top: 100%;
+     z-index: -1;
+     transition: top 0.8s ease-out;
+}
+
+.myBtn:hover:before {
+     top: 0;
+}
+
+
+  End of Intro */
+  
+  
+
 
 
 
@@ -209,7 +434,7 @@ html {
   transition: opacity 0.2s;
 }
 
-.menu-icon-line {
+.moon {
   width: 4rem;
   height: 0.1rem;
   background-color: #777;
@@ -257,8 +482,9 @@ html {
   position: relative;
   width: 100%;
   height: 200vh;
+  outline: none;
 }
-
+/*
 .design {
 	position: absolute;
   top: -3rem;
@@ -452,7 +678,7 @@ html {
 	height: 3px;
 	background-color: silver;
 	left: -10.5rem;
-  }
+  } */
 
 
 
@@ -662,7 +888,7 @@ background: none;
 	display: flex;
 	border-radius: 10px;
 	transition: all 1s;
-	background-color: rgb(190, 74, 42);
+	background-color: orangered;
   }
   
   .line-1 {
@@ -870,66 +1096,7 @@ background: none;
 
 
 
-/*  section .air{
-	position: fixed;
-  -ms-text-align-last: auto;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100px;
-	background: url(https://1.bp.blogspot.com/-xQUc-TovqDk/XdxogmMqIRI/AAAAAAAACvI/AizpnE509UMGBcTiLJ58BC6iViPYGYQfQCLcBGAsYHQ/s1600/wave.png);
-	background-size: 1000px 100px;
-  }
 
-  section .air.air1{
-	animation: wave 30s linear infinite;
-	z-index: -1000;
-	opacity: 1;
-	animation-delay: 0s;
-	top: 0;
-	
-  }
-  section .air.air2{
-	animation: wave2 15s linear infinite;
-	z-index: 999;
-	opacity: 0.5;
-	animation-delay: -5s;
-	top: 0px;
-	
-	
-  }
-  section .air.air3{
-	animation: wave 30s linear infinite;
-	z-index: 998;
-	opacity: 0.2;
-	animation-delay: -2s;
-	top: 0px;
-
-  }
-  section .air.air4{
-	animation: wave2 5s linear infinite;
-	z-index: 997;
-	opacity: 0.7;
-	animation-delay: -5s;
-	top: 0px;
-
-  }
-  @keyframes wave{
-	0%{
-	  background-position-x: 0px; 
-	}
-	100%{
-	  background-position-x: 1000px; 
-	}
-  }
-  @keyframes wave2{
-	0%{
-	  background-position-x: 0px; 
-	}
-	100%{
-	  background-position-x: -1000px; 
-	}
-  } */
 
 /* Logo */
 .nick {
@@ -1535,11 +1702,13 @@ background: none;
 
 .end-bbg {
   position: absolute;
+  align-items: center;
   background-size: cover;
-  background: url(world.png.jpg) center no-repeat;
+  background: url("world.png.jpg") center no-repeat;
   width: 100%;
   height: 100%;
   top: 0rem;
+  outline: none;
 }
   .thanks {
     position: absolute;
@@ -1566,21 +1735,23 @@ background: none;
   top: 0rem;
   justify-content: center;
   align-items: center;
-  
-
-
 }
+
+  .japan {
+    position: absolute;
+    left: 53rem;
+    top: 25rem;
+}
+
   .eq {
     position: absolute;
-    left: 55rem;
-  
-  top: 25rem;
-  
+    left: 43rem;
+    top: 25rem;
   }
 
   .blm {
     position: absolute;
-    left: 40rem;
+    left: 33rem;
     top: 25rem;
   
   }
@@ -1589,13 +1760,13 @@ background: none;
 
   .infinitylove {
     position: absolute;
-    left: 30rem;
+    left: 25rem;
     top: 25rem;
   }
 
 .tmc {
   position: absolute;
-  left: 20rem;
+  left: 15rem;
   top: 25rem;
 }
 
@@ -1604,57 +1775,29 @@ background: none;
   left: 5rem;
   top: 25rem;
 }
-  /* .pic6 img {
-    position: relative;
-    left: 5rem;
-    width: 3rem;
-  }
-
-  .pic7 img {
-    position: relative;
-    left: 6rem;
-    width: 8rem;
-    height: 6rem;
-    top: -7rem;
-  }
-
-  .pic8 img {
-    position: relative;
-    left: 8rem;
-    width: 8rem;
-    height: 6rem;
-    top: -7rem;
-  }
-
-  .pic9 img {
-    position: relative;
-    left: 9rem;
-    width: 8rem;
-    height: 6rem;
-    top: -7rem;
-  } */
+  
 
   .bird {
     position: absolute;
-    right: 30rem;
+    right: 25rem;
     top: 25rem;
   }
   
   .mayagang {
     position: absolute;
-    right: 55rem;
+    right: 38rem;
     top: 25rem;
   }
 
   .ifixit {
     position: absolute;
-    right: 40rem;
+    right: 30rem;
     top: 25rem;
   }
 
   .github {
     position: absolute;
-    right: 20rem;
+    right: 15rem;
     top: 25rem;
   }
 
@@ -1839,7 +1982,7 @@ border-right: 1px solid #777;
   margin: center;
 }
 
-.bg {
+.bgg {
 	border: 2px solid transparent;
 	position: absolute;
 	width: 25rem;
@@ -1919,7 +2062,7 @@ border-right: 1px solid #777;
   
 
 
-  .span-1 {
+  .span-11 {
 	position: absolute;
 	content: \F285;
 	  font-size: 6rem;
@@ -1929,7 +2072,7 @@ border-right: 1px solid #777;
 	  display: block;
   }
   
-  .i {
+  .ii {
 	  position: absolute;
 	  font-size: 1.4rem;
 	  font-family: 'DM Serif Display', serif;
@@ -1941,7 +2084,7 @@ border-right: 1px solid #777;
 	  display: block;
   }
   
-  .m {
+  .mm {
 	position: absolute;
 	font-size: 2rem;
 	margin-top: 4rem;
@@ -1953,7 +2096,7 @@ border-right: 1px solid #777;
 	display: block;
   }
   
-  .span-2 {
+  .span-22 {
 	  position: absolute;
 	  margin-left: -6.8rem;
 	  margin-top: 5.9rem;
@@ -1963,7 +2106,7 @@ border-right: 1px solid #777;
 	  display: block;
   }
   
-  .wireless {
+  .wirelesss {
 	  position: absolute;
 	  left: 1.5rem;
 	  font-size: 1.5rem;
@@ -1981,7 +2124,7 @@ border-right: 1px solid #777;
 	top: 2.5rem;
   }
   
-  .laptop {
+  .laptopp {
 	position: absolute;
 	content: \F456;
 	top: 3.3rem;
@@ -1989,7 +2132,7 @@ border-right: 1px solid #777;
 	display: block;
   }
   
-  .code {
+  .codee {
 	position: absolute;
 	top: 3.5rem;
 	left: -1.4rem;
@@ -2077,9 +2220,9 @@ border-right: 1px solid #777;
     height: 12.5rem;
   }
 
-  .circle {
+   /*.circle {
     display: none;
-  }
+  } */
 
   .progress-bar {
     right: 5rem;
@@ -2100,9 +2243,10 @@ border-right: 1px solid #777;
     font-size: 55%;
   }
 
-  .mouse-circle,
-  .mouse-dot {
-    display: none;
+  .section {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
   }
 
   .navbar-link {
@@ -2152,11 +2296,65 @@ border-right: 1px solid #777;
   .menu-icon {
     right: -4rem;
   }
+  
+  .section {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+ .wireless-logo {
+    justify-content: center;
+    outline: none;
+    align-items: center;
+    content: relative;
+    left: 15rem;
+    right: 20rem;
+}
+
+.main-circle {
+    top: 170rem;
+}
+
+.circle {
+    top: 110rem;
+}
+
+.title {
+    top: 25rem;
+    left: 5rem;
+    
+}
+
+.nick {
+    top: 220rem;
+}
+
+.definition {
+    top: 29.5rem;
+    left: 5rem;
+}
+
+.tikal img {
+    top: 85rem;
+    content: absolute;
+    
+}
 
   .navbar-link {
     font-size: 1.5rem;
     margin: 0 1rem;
   }
+
+.cruz {
+    top: 5rem;
+    left: 18rem;
+}
+
+.cross {
+    top: 10rem;
+    left: 13.5rem;
+}
 
   .featured-text-1 {
     margin: 0 auto 0 5rem;
@@ -2193,6 +2391,29 @@ border-right: 1px solid #777;
     font-size: 50%;
   }
 
+.section {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+ .wireless-logo {
+    justify-content: center;
+    outline: none;
+    align-items: center;
+    content: relative;
+    right: 5rem;
+    left: 5rem;
+}
+
+
+
+.gold {
+    display: none;
+    
+    
+}
+
   .contact-form-input {
     width: 50rem;
   }
@@ -2202,6 +2423,29 @@ border-right: 1px solid #777;
   html {
     font-size: 40%;
   }
+
+.section {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .wireless-logo {
+    justify-content: center;
+    outline: none;
+    align-items: center;
+    content: relative;
+    right: 5rem;
+    left: 5rem;
+}
+
+
+.gold {
+    display: none;
+    
+    
+}
 
   .main-circle img {
     width: 180%;
@@ -2234,6 +2478,32 @@ border-right: 1px solid #777;
   html {
     font-size: 35%;
   }
+
+.section {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+.page-bg {
+    width: 100%;
+}
+.gold {
+    display: none;
+
+    
+}
+
+ .wireless-logo {
+    justify-content: center;
+    outline: none;
+    align-items: center;
+    content: relative;
+    right: 5rem;
+    left: 5rem;
+}
+
+
 
   .logo {
     font-size: 1.7rem;
